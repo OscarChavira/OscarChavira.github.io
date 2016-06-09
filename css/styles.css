@@ -1,0 +1,122 @@
+h1,h2,h3,h4,h5,h6,p,ul,li,a,figure{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+#encabezado{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 110px;
+    background-image: url(/img/img-port.jpg);
+    background-position: center;
+}
+#barra{
+    background-color:black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url();
+    background-position:center;
+}
+
+#barra li {
+    display: inline-block;
+    padding: 6px;
+}
+
+#barra a {
+    box-shadow:1px 2px 3px gray;
+    color: white;
+    text-decoration: none;  
+    /*background-color: darkgray;*/
+    padding: 9px 20px;
+}
+#contenido
+{
+    min-height: 250px;
+}
+#nota-principal img{
+    box-shadow:2px 3px 2px  gray;
+}
+#nota-principal{
+    text-align: center;
+    font-size: 20px;
+}
+#noticias{
+    margin: 10px;
+    box-shadow: 2px 2px 5px 2px gray;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+}
+#notas{
+    width: 660px;
+}
+#notas article{
+    display: flex;
+    box-shadow:1px 2px 3px gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+#notas article div{
+    padding-left: 0;
+    padding-right: 10px;
+}
+#notas article h2{
+    font-variant: small-caps;
+    line-height: 0.8em;
+    font-size: 1.8em;
+    padding:5px;
+}
+#p{
+    padding: 2px;
+}
+#notas p{
+    text-align: justify;
+}
+#notas a{
+    text-decoration: none;
+    color: red;
+}
+#notas a:hover{
+    color: darkblue;
+}
+#notas figure img{
+    height: 175px;
+}
+.ver-mas div{
+    padding:1px 1px !important;
+    display: inline-block;
+}
+.ver-mas>div>div{
+    display: inline-block;
+    border:0.5px solid gray;
+    padding: 1px 10px;
+}
+.ver-mas p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#flexible{
+    display: flex;
+}
+#publicidad {
+    width: 260px;
+    /*float: right;*/
+    padding: 5px;
+    min-height: 200px;
+}
+#publicidad img{
+    
+    margin-bottom:50px;
+}
+#pie{
+    background-image: url(/img/fin.jpg);
+    height: 150px;
+    width: 900px;
+}
